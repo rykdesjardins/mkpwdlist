@@ -1,0 +1,7 @@
+dogname
+birthdaydate
+gfname
+streetigrewupon
+1991
+hometown
+teachersname
