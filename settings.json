@@ -1,0 +1,7 @@
+{
+	"maxWordMix" : 6,
+	"numberGenStart" : 0,
+	"numberGenEnd" : 99,
+	"characters" : "!$%&*-+",
+    "flushInterval" : 50
+}
