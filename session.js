@@ -8,6 +8,10 @@ module.exports = class mkSession {
 		this.flags = flags.substring(1).split('');
 		this.outputfile = output;
 
+		if (this.flags.includes('a')) {
+			this.flags = "mNnc".split('');
+		}
+
 		this.inputlist = fs.readFileSync(input, {
 			encoding : 'utf8'
 		}).split('\n').filter(x => x.trim());
