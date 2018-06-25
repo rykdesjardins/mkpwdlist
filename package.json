@@ -1,0 +1,12 @@
+{
+  "name": "mkpwdlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mkpwdlist.js",
+  "scripts": {
+    "test": "node mkpwdlist.js testlist.txt -mNnc output.txt && head output.txt && echo '...' && tail output.txt && echo '\n' && rm output.txt",
+    "testkeep": "node mkpwdlist.js testlist.txt -mnNc output.txt"
+  },
+  "author": "",
+  "license": "ISC"
+}
