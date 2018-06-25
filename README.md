@@ -15,7 +15,9 @@ Flags representation the desired transformations. Those have to appear after a s
 - `n` : Prepend numbers to all input
 - `N` : Append numbers to all input
 - `c` : Mix in special characters
-- `H` : Output random hexadecimal 8 character passwords
+- `H` : Output random hexadecimal 8 character passwords (WIP)
+
+A lot more to come. 
 
 ## `<output_file>`           
 A file which will be created containing the final list of passwords.
